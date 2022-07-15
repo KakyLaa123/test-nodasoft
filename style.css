@@ -1,0 +1,82 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    border-left: 15px solid #C0DBD9;
+    border-right: 15px solid #C0DBD9;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.Popup-block{
+    min-height: 100px;
+    background-color: #7FAFF7;
+    box-sizing: border-box;
+    padding: 30.5px 30px 30.5px 30px;
+}
+
+.popup-block__openpopup-btn{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 8px 15px;
+    background-color: #A5C7F9;
+    max-width: 209px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Grid-block{
+    display: grid;
+    gap: 15px;
+    background-color: #B3F95A;
+    grid-template-columns: 33fr 50fr 13.5fr;
+    grid-auto-rows: 198px;
+    border-top: 15px solid #C0DBD9;
+    border-bottom: 15px solid #C0DBD9;
+}
+
+.Grid-block__block{
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 62px;
+    color: #FFFFFF;
+    background: #8AD191;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Grid-block__fourth{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.Flex-block{
+    display: flex;
+    gap: 30px;
+    background-color: #88B5BF;
+    padding: 30px;
+    box-sizing: border-box;
+    height: 259px;
+}
+
+@media (max-width: 1200px) {
+    .Flex-block{
+        height: 21.6vw;
+    }
+}
+
+.Flex-block__block{
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #0D89B0;
+}
+
+.Bottom-block{
+    border-top: 100px solid #C0DBD9;
+    height: 100px;
+    background-color: #7FAFF7;
+}
