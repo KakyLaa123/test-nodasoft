@@ -6,6 +6,7 @@ body{
     box-sizing: border-box;
     font-family: 'Roboto';
     font-style: normal;
+    position: relative;
 }
 
 .Popup-block{
@@ -25,6 +26,7 @@ body{
     max-width: 209px;
     box-sizing: border-box;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .Grid-block{
@@ -79,4 +81,41 @@ body{
     border-top: 100px solid #C0DBD9;
     height: 100px;
     background-color: #7FAFF7;
+}
+
+.Popup-window-box:target{
+    position: absolute;
+    top: 0;
+}
+
+.Popup-window{
+    position: relative;
+    width: 398px;
+    height: 400px;
+    top: 20px;
+    left: 30px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Popup-window__text{
+    font-size: 53px;
+    line-height: 62px;
+}
+
+.Popup-window__close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    padding: 8px 15px;
+    background-color: #7FAFF6;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
 }
